@@ -1,6 +1,6 @@
 # angular-brotli
 
-POC angular simple project with brotli compression enabled.
+POC angular simple project with brotli compression enabled. Published web site [here](https://tiamat-azure.github.io/angular-brotli/).
 
 [![Build Status](https://travis-ci.org/tiamat-azure/angular-brotli.svg?branch=master)](https://travis-ci.org/tiamat-azure/angular-brotli) [![Maintainability](https://api.codeclimate.com/v1/badges/e59a21bd2f0b879eafb4/maintainability)](https://codeclimate.com/github/tiamat-azure/angular-brotli/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/e59a21bd2f0b879eafb4/test_coverage)](https://codeclimate.com/github/tiamat-azure/angular-brotli/test_coverage)
 
