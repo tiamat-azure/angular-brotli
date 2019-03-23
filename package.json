@@ -7,6 +7,7 @@
     "build": "ng build",
     "build-prod": "ng build --prod && node compress.js",
     "test": "ng test",
+    "test-headless": "ng test --watch=false --browsers=ChromeHeadless",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
