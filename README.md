@@ -1,8 +1,13 @@
 # angular-brotli
 
-POC angular simple project with brotli compression enabled.
+POC [Angular](https://angular.io/) simple project with [Brotli](https://fr.wikipedia.org/wiki/Brotli) compression enabled.
 
-[![Build Status](https://travis-ci.org/tiamat-azure/angular-brotli.svg?branch=master)](https://travis-ci.org/tiamat-azure/angular-brotli) [![Maintainability](https://api.codeclimate.com/v1/badges/e59a21bd2f0b879eafb4/maintainability)](https://codeclimate.com/github/tiamat-azure/angular-brotli/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/e59a21bd2f0b879eafb4/test_coverage)](https://codeclimate.com/github/tiamat-azure/angular-brotli/test_coverage)
+<p align="center">
+  <a href="https://travis-ci.org/tiamat-azure/angular-brotli"><img src="https://img.shields.io/travis/tiamat-azure/angular-brotli/master.svg?label=Linux%20build" alt="Linux Build Status"/></a>
+  <a href="https://codeclimate.com/github/tiamat-azure/angular-brotli/maintainability"><img src="https://img.shields.io/codeclimate/coverage-letter/tiamat-azure/angular-brotli.svg?label=Maintainability" alt="Maintenability"/></a>
+  <a href="https://codeclimate.com/github/tiamat-azure/angular-brotli/test_coverage"><img src="https://img.shields.io/codeclimate/coverage/tiamat-azure/angular-brotli.svg?label=Test%20coverage" alt="Test coverage"/></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="http://img.shields.io/badge/license-MIT-brightgreen.svg" alt="MIT badge"/></a>
+</p>
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
