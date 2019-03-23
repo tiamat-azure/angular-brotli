@@ -37,7 +37,7 @@ module.exports = function (config) {
         base: 'ChromeHeadless',
         flags: ['--no-sandbox']
       }
-    }
+    },
     singleRun: false,
     restartOnFileChange: true
   });
