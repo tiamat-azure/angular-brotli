@@ -12,6 +12,8 @@ addons:
       - google-chrome
     packages:
       - google-chrome-stable
+  code_climate:
+    repo_token: $CODE_COVERAGE_TOKEN
 
 cache:
   directories:
@@ -34,6 +36,9 @@ script:
   - npm run e2e-headless
   - ng build --prod --base-href https://tiamat-azure.github.io/angular-brotli/
   #- node compress.js
+
+after_script:
+  - codeclimate-test-reporter < ./coverage/angular-brotli/lcov.info
 
 deploy:
   provider: pages
