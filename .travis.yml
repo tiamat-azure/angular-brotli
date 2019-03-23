@@ -16,3 +16,11 @@ script:
   - npm run test-headless
   - ng build --prod --base-href https://tiamat-azure.github.io/angular-brotli/
   - node compress.js
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/angular-brotli
+  on:
+    branch: master
