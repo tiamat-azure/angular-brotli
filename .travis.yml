@@ -25,7 +25,7 @@ branches:
 
 install:
   - npm install
-  - npm install -g @angular/cli
+  - npm install -g @angular/cli codeclimate-test-reporter
 
 #before_script:
 #  - npm install -g @angular/cli
