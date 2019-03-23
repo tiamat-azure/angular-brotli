@@ -22,13 +22,19 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
+Run `npm run build-prod` to build the project with [Brotli](https://fr.wikipedia.org/wiki/Brotli) compression activated.
+
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+Run `npm run test-headless` to execute the unit tests via [Karma](https://karma-runner.github.io) in headless mode.
+
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+Run `npm run e2e-headless` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/) in headless mode.
 
 ## Further help
 
