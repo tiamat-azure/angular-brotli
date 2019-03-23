@@ -1,20 +1,37 @@
-language: node_js
-node_js:
-  - "10"
 dist: trusty
 sudo: required
+
+language: node_js
+
+node_js:
+  - "10"
+
+addons:
+  apt:
+    sources:
+      - google-chrome
+    packages:
+      - google-chrome-stable
+
+cache:
+  directories:
+    - ./node_modules
 
 branches:
   only:
     - master
 
-before_script:
+install:
+  - npm install
   - npm install -g @angular/cli
+
+#before_script:
+#  - npm install -g @angular/cli
 
 script:
   - ng lint
   - npm run test-headless
-  - ng e2e
+  - npm run e2e-headless
   - ng build --prod --base-href https://tiamat-azure.github.io/angular-brotli/
   #- node compress.js
 
