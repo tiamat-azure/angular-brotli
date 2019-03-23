@@ -41,9 +41,12 @@ after_script:
   - codeclimate-test-reporter < ./coverage/angular-brotli/lcov.info
 
 deploy:
-  provider: pages
+  - provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   local_dir: dist/angular-brotli
   on:
     branch: master
+  - provider: surge
+  project: ./dist/angular-brotli/
+  domain: angular-brotli.surge.sh

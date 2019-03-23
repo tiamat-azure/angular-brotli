@@ -10,7 +10,8 @@
     "test-headless": "ng test -- --no-watch --no-progress --browsers=ChromeHeadlessCI",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "e2e-headless": "ng e2e -- --protractor-config=e2e/protractor-ci.conf.js"
+    "e2e-headless": "ng e2e -- --protractor-config=e2e/protractor-ci.conf.js",
+    "deploy": "surge"
   },
   "private": true,
   "dependencies": {
@@ -45,6 +46,7 @@
     "karma-jasmine": "~1.1.2",
     "karma-jasmine-html-reporter": "^0.2.2",
     "protractor": "~5.4.0",
+    "surge": "^0.20.3",
     "ts-node": "~7.0.0",
     "tslint": "~5.11.0",
     "typescript": "~3.2.2"
