@@ -13,7 +13,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Deployment server
 
-https://tiamat-azure.github.io/angular-brotli
+- On [Github Pages](https://tiamat-azure.github.io/angular-brotli)
+
+- On [Surge](https://tiamat-azure.surge.sh)
 
 ## Development server
 

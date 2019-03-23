@@ -14,7 +14,7 @@ const path = 'dist/angular-brotli';
 fs.readdirSync(path).forEach(file => {
   if (file.endsWith('.js') || file.endsWith('.css') || file.endsWith('.html')) {
     const result = brotli.compress(fs.readFileSync(path + '/' + file), brotliSettings)
-    //fs.writeFileSync(path + '/' + file + '.br', result)
-    fs.writeFileSync(path + '/' + file, result)
+    fs.writeFileSync(path + '/' + file + '.br', result)
+    //fs.writeFileSync(path + '/' + file, result)
   }
 })
