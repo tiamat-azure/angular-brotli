@@ -14,3 +14,4 @@ before_script:
 script:
   - ng lint
   - ng build --prod --base-href https://tiamat-azure.github.io/angular-brotli/
+  - node compress.js
