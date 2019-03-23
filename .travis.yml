@@ -15,7 +15,7 @@ script:
   - ng lint
   - npm run test-headless
   - ng build --prod --base-href https://tiamat-azure.github.io/angular-brotli/
-  - node compress.js
+  #- node compress.js
 
 deploy:
   provider: pages
