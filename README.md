@@ -1,4 +1,8 @@
-# AngularBrotli
+# angular-brotli
+
+POC angular simple project with brotli compression enabled.
+
+[![Build Status](https://travis-ci.org/tiamat-azure/angular-brotli.svg?branch=master)](https://travis-ci.org/tiamat-azure/angular-brotli) 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
