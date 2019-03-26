@@ -42,11 +42,11 @@ after_script:
 
 deploy:
   - provider: pages
-  skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: dist/angular-brotli
-  on:
-    branch: master
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: dist/angular-brotli
+    on:
+      branch: master
   - provider: surge
-  project: ./dist/angular-brotli/
-  domain: angular-brotli.surge.sh
+    project: ./dist/angular-brotli/
+    domain: angular-brotli.surge.sh
