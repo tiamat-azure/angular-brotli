@@ -50,3 +50,4 @@ deploy:
   - provider: surge
     project: ./dist/angular-brotli/
     domain: angular-brotli.surge.sh
+  skip_cleanup: true
